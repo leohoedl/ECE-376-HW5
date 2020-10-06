@@ -1,0 +1,215 @@
+[p GLOBOPT AUTOSTATIC LFSROK SPACEOPT EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+"62 C:\Users\leeee\Desktop\StepperTest\LCD_PortD.C
+[v _c `uc  1 a 1 prodl ]
+"44
+[v _c `uc  1 a 1 prodl ]
+"54
+[v _Row `uc  1 a 1 fsr2l ]
+[v _Row `uc  1 a 1 fsr2l ]
+"44
+[v _c `uc  1 a 1 prodl ]
+"62
+[v _c `uc  1 a 1 prodl ]
+"54
+[v _Row `uc  1 a 1 fsr2l ]
+"44
+[v _c `uc  1 a 1 prodl ]
+"62
+[v _c `uc  1 a 1 prodl ]
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\aldiv.c
+[v ___aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\almod.c
+[v ___almod `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\awdiv.c
+[v ___awdiv `(i  1 e 2 0 ]
+"3 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\wmul.c
+[v ___wmul `(ui  1 e 2 0 ]
+"16 C:\Users\leeee\Desktop\StepperTest\LCD_PortD.C
+[v _Wait_ms `(v  1 e 0 0 ]
+"25
+[v _LCD_Pause `(v  1 e 0 0 ]
+"32
+[v _LCD_Strobe `(v  1 e 0 0 ]
+"44
+[v _LCD_Inst `(v  1 e 0 0 ]
+"54
+[v _LCD_Move `(v  1 e 0 0 ]
+"62
+[v _LCD_Write `(v  1 e 0 0 ]
+"73
+[v _LCD_Init `(v  1 e 0 0 ]
+"87
+[v _LCD_Out `(v  1 e 0 0 ]
+"14 C:\Users\leeee\Desktop\StepperTest\Stepper.c
+[v _GetKey `(uc  1 e 1 0 ]
+"47
+[v _ReadKey `(uc  1 e 1 0 ]
+"63
+[v _main `(v  1 e 0 0 ]
+"90 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _ADCON1 `Nuc  1 e 1 @4033 ]
+"133
+[v _TRISE `VNuc  1 e 1 @3990 ]
+"134
+[v _TRISD `VNuc  1 e 1 @3989 ]
+"136
+[v _TRISC `VNuc  1 e 1 @3988 ]
+"137
+[v _TRISB `VNuc  1 e 1 @3987 ]
+"138
+[v _TRISA `VNuc  1 e 1 @3986 ]
+"148
+[v _PORTD `VNuc  1 e 1 @3971 ]
+"150
+[v _PORTC `VNuc  1 e 1 @3970 ]
+"152
+[v _PORTA `VNuc  1 e 1 @3968 ]
+"617
+[v _RD1 `VNb  1 e 0 @31769 ]
+"618
+[v _RD2 `VNb  1 e 0 @31770 ]
+"619
+[v _RD3 `VNb  1 e 0 @31771 ]
+"630
+[v _RC3 `VNb  1 e 0 @31763 ]
+"631
+[v _RC4 `VNb  1 e 0 @31764 ]
+"632
+[v _RC5 `VNb  1 e 0 @31765 ]
+"633
+[v _RC6 `VNb  1 e 0 @31766 ]
+"637
+[v _RB0 `VNb  1 e 0 @31752 ]
+"638
+[v _RB1 `VNb  1 e 0 @31753 ]
+"639
+[v _RB2 `VNb  1 e 0 @31754 ]
+"640
+[v _RB3 `VNb  1 e 0 @31755 ]
+"641
+[v _RB4 `VNb  1 e 0 @31756 ]
+"5 C:\Users\leeee\Desktop\StepperTest\Stepper.c
+[v _MSG `DC[16]uc  1 e 16 0 ]
+"6
+[v _TABLE `[4]uc  1 e 4 @43 ]
+"63
+[v _main `(v  1 e 0 0 ]
+{
+"64
+[v _Y `i  1 a 2 0 ]
+[v _TEMP `i  1 a 2 2 ]
+[v _i `i  1 a 2 4 ]
+[v _X `i  1 a 2 6 ]
+[v _STEP `i  1 a 2 8 ]
+"113
+} 10
+"54 C:\Users\leeee\Desktop\StepperTest\LCD_PortD.C
+[v _LCD_Move `(v  1 e 0 0 ]
+{
+[v _Row `uc  1 a 1 wreg ]
+[v _Col `uc  1 p 1 0 ]
+[v _Row `uc  1 a 1 fsr2l ]
+"59
+} 0
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\awdiv.c
+[v ___awdiv `(i  1 e 2 0 ]
+{
+[v _dividend `i  1 p 2 0 ]
+[v _divisor `i  1 p 2 2 ]
+"37
+} 0
+"47 C:\Users\leeee\Desktop\StepperTest\Stepper.c
+[v _ReadKey `(uc  1 e 1 0 ]
+{
+"57
+} 0
+"3 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\wmul.c
+[v ___wmul `(ui  1 e 2 0 ]
+{
+[v _multiplier `ui  1 p 2 0 ]
+[v _multiplicand `ui  1 p 2 2 ]
+"13
+} 0
+"73 C:\Users\leeee\Desktop\StepperTest\LCD_PortD.C
+[v _LCD_Init `(v  1 e 0 0 ]
+{
+"83
+} 0
+"87
+[v _LCD_Out `(v  1 e 0 0 ]
+{
+"88
+[v _A `[10]uc  1 a 10 0 ]
+"87
+[v _DATA `l  1 p 4 0 ]
+[v _D `uc  1 p 1 4 ]
+[v _N `uc  1 p 1 5 ]
+"88
+[v _i `uc  1 a 1 prodh ]
+[v _i `uc  1 a 1 fsr2l ]
+"102
+} 10
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\aldiv.c
+[v ___aldiv `(l  1 e 4 0 ]
+{
+"6
+[v _quotient `l  1 a 4 0 ]
+"5
+[v _dividend `l  1 p 4 0 ]
+[v _divisor `l  1 p 4 4 ]
+"37
+} 4
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\almod.c
+[v ___almod `(l  1 e 4 0 ]
+{
+[v _dividend `l  1 p 4 0 ]
+[v _divisor `l  1 p 4 4 ]
+"30
+} 0
+"14 C:\Users\leeee\Desktop\StepperTest\Stepper.c
+[v _GetKey `(uc  1 e 1 0 ]
+{
+"15
+[v _i `i  1 a 2 0 ]
+[v _i `i  1 a 2 0 ]
+[v _i `i  1 a 2 0 ]
+[v _i `i  1 a 2 0 ]
+[v _i `i  1 a 2 0 ]
+"44
+} 2
+"44 C:\Users\leeee\Desktop\StepperTest\LCD_PortD.C
+[v _LCD_Inst `(v  1 e 0 0 ]
+{
+[v _c `uc  1 a 1 wreg ]
+[v _c `uc  1 a 1 prodl ]
+"51
+} 0
+"62
+[v _LCD_Write `(v  1 e 0 0 ]
+{
+[v _c `uc  1 a 1 wreg ]
+[v _c `uc  1 a 1 prodl ]
+"69
+} 0
+"32
+[v _LCD_Strobe `(v  1 e 0 0 ]
+{
+"39
+} 0
+"16
+[v _Wait_ms `(v  1 e 0 0 ]
+{
+"17
+[v _j `ui  1 a 2 0 ]
+"16
+[v _X `ui  1 p 2 0 ]
+"21
+} 2
+"25
+[v _LCD_Pause `(v  1 e 0 0 ]
+{
+"28
+} 0

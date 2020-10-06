@@ -1,0 +1,16 @@
+_Wait_ms: CODE, 5688 0 40
+_LCD_Inst: CODE, 5596 0 48
+_ReadKey: CODE, 5728 0 40
+_main: CODE, 4118 0 456
+___awdiv: CODE, 5314 0 120
+_LCD_Out: CODE, 4788 0 190
+_GetKey: CODE, 4574 0 214
+___aldiv: CODE, 4978 0 188
+___wmul: CODE, 5644 0 44
+_LCD_Move: CODE, 5434 0 58
+_LCD_Strobe: CODE, 5806 0 18
+_LCD_Pause: CODE, 5824 0 12
+___almod: CODE, 5166 0 148
+_LCD_Write: CODE, 5768 0 38
+_LCD_Init: CODE, 5544 0 52
+Total: 1666
